@@ -16,6 +16,7 @@
 		B251DD6C1EF34D7D00AAC100 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251DD6B1EF34D7D00AAC100 /* ItemsViewController.swift */; };
 		B251DD701EF34E3700AAC100 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251DD6F1EF34E3700AAC100 /* Item.swift */; };
 		B251DD721EF350DA00AAC100 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251DD711EF350DA00AAC100 /* ItemStore.swift */; };
+		B2BEB4491EFB246700DF9967 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BEB4481EFB246700DF9967 /* ImageStore.swift */; };
 		B2D899841EF8811C0071C7C8 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D899831EF8811C0071C7C8 /* ItemCell.swift */; };
 		B2D899861EF88B3E0071C7C8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D899851EF88B3E0071C7C8 /* DetailViewController.swift */; };
 		B2D899881EF8B6150071C7C8 /* CurrentTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D899871EF8B6150071C7C8 /* CurrentTextField.swift */; };
@@ -55,6 +56,7 @@
 		B251DD6B1EF34D7D00AAC100 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemsViewController.swift; path = ../ItemsViewController.swift; sourceTree = "<group>"; };
 		B251DD6F1EF34E3700AAC100 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B251DD711EF350DA00AAC100 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		B2BEB4481EFB246700DF9967 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		B2D899831EF8811C0071C7C8 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		B2D899851EF88B3E0071C7C8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B2D899871EF8B6150071C7C8 /* CurrentTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTextField.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				B2D899871EF8B6150071C7C8 /* CurrentTextField.swift */,
 				B2D899891EF8BC870071C7C8 /* DateChangeViewController.swift */,
 				B2D899851EF88B3E0071C7C8 /* DetailViewController.swift */,
+				B2BEB4481EFB246700DF9967 /* ImageStore.swift */,
 				B251DD6F1EF34E3700AAC100 /* Item.swift */,
 				B2D899831EF8811C0071C7C8 /* ItemCell.swift */,
 				B251DD711EF350DA00AAC100 /* ItemStore.swift */,
@@ -285,6 +288,7 @@
 				B2D899881EF8B6150071C7C8 /* CurrentTextField.swift in Sources */,
 				B251DD721EF350DA00AAC100 /* ItemStore.swift in Sources */,
 				B2D8998A1EF8BC870071C7C8 /* DateChangeViewController.swift in Sources */,
+				B2BEB4491EFB246700DF9967 /* ImageStore.swift in Sources */,
 				B2D899861EF88B3E0071C7C8 /* DetailViewController.swift in Sources */,
 				B251DD3E1EF34CC400AAC100 /* AppDelegate.swift in Sources */,
 				B2D899841EF8811C0071C7C8 /* ItemCell.swift in Sources */,
@@ -447,6 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SalinStudios.Homepwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -460,6 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SalinStudios.Homepwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
